@@ -1,0 +1,101 @@
+.sitenav{
+
+
+    &__home{
+        background-color: #1F1F1F;
+        width: 247px;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 110px;
+        margin-top: 40px;
+        text-decoration: none;
+    }
+
+    &__home:hover{
+        opacity: 0.8;
+        transition: all 0.4s;
+    }
+    &__home:active{
+        opacity: 0.4;
+        transition: all 0.4s;
+    }
+
+    &__home-img{
+        margin-left: 12px;
+    }
+    &__desc{
+        margin: 0;
+        margin-left: 14px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #E1E1E1
+    }
+
+    &__bookmark{
+        background-color: #1F1F1F;
+        width: 247px;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+
+    &__bookmark:hover{
+        opacity: 0.8;
+        transition: all 0.4s;
+    }
+    &__bookmark:active{
+        opacity: 0.4;
+        transition: all 0.4s;
+    }
+
+
+    &__bookmark-img{
+        margin-left: 12px;
+    }
+
+    &__bookmark-desc{
+        margin: 0;
+        margin-left: 14px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #E1E1E1
+    }
+
+    &__watchlist{
+        background-color: #F33F3F;
+        width: 247px;
+        height: 41px;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        margin-left: 110px;
+        margin-top: 40px;
+    }
+
+    &__watchlist-desc{
+        margin: 0;
+        margin-left: 14px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: black
+    }
+
+
+}

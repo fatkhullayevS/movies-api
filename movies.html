@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body style="background-color: #1F1F1F;">
+    <div class="row">
+        <div class="col-4 h-100  movies">
+            <div class="movies__left">
+                <h1 class="movies__heading text-center">Movies</h1>
+                <form class="form">
+                    <input class="form-input" type="search" placeholder="search">
+                </form>
+                <nav class="sitenav">
+                    <a class="sitenav__home" href="index.html" target="_blank">
+                        <img class="sitenav__home-img" src="./img/Home.svg" alt="" width="23" height="21">
+                        <p class="sitenav__desc">Home</p>
+                    </a>
+                    <a href="bookmark.html" class="sitenav__bookmark">
+                        <img class="sitenav__bookmark-img" src="./img/bookmark.svg" alt="" width="23" height="21">
+                        <p class="sitenav__bookmark-desc">Bookmark</p>
+                    </a>
+                    <button class="sitenav__watchlist">
+                        <p class="sitenav__watchlist-desc">+ Create watchlist</p>
+                    </button>
+                </nav>
+                <h1 class="movies__list-heading">My lists</h1>
+                <div class="bookmark">
+
+                </div>
+                <button class="movies__main">
+                    <img class="movies__main-img" src="./img/32.svg" alt="" width="23" height="21">
+                    <p class="movies__main-desc">Guest</p>
+                </button>
+            </div>
+        </div>
+        <div class="col-8">
+            <form class="films__form w-100 form">
+                <div class="input-group ">
+                    <input type="text" class="form-control films__input2 input"
+                        placeholder="Search  for movies by title" autocomplete="off" aria-label="Recipient's username"
+                        aria-describedby="button-addon2">
+                    <button class="btn btn-danger text-dark" type="button" id="button-addon2">Search</button>
+                </div>
+            </form>
+            <div class="render-films">
+
+            </div>
+            <div class="render-pag w-75">
+            </div>
+            <div class="btn-style">
+                <button class="btn btn-outline-primary prevBtn">prev</a></button>
+                <button class="btn btn-outline-primary nextBtn">next</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
