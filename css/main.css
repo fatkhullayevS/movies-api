@@ -603,6 +603,14 @@ img {
   background-color: #9A9A9A;
 }
 
+.render-pag {
+  width: 400px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-x: scroll;
+}
+
 .films {
   background-color: #302c2c;
 }

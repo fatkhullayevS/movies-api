@@ -86,7 +86,7 @@ const getMovies = async function(){
 }
 
 elInput.addEventListener("input", function(e){
-    e.preventDefault()
+    // e.preventDefault()
     search = elInput.value;
 
     getMovies()

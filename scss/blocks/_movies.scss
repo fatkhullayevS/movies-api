@@ -86,3 +86,9 @@
 .body{
     background-color: #9A9A9A;
 }
+
+.render-pag{
+    width: 400px !important;
+    display: flex;
+    overflow-x: scroll;
+}
